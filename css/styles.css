@@ -5,7 +5,7 @@ h1 {
   text-align: center;
 }
 h2 {
-text-align: center; 
+text-align: center;
 }
 
 p {
@@ -13,4 +13,8 @@ p {
 }
 ul {
   font-size: 17px;
+}
+.column {
+  float: center;
+  width:33%;
 }
