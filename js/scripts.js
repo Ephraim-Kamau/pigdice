@@ -1,13 +1,14 @@
 $(document).ready(function() {
   $('#dice').submit(function(event){
+  event.preventDefault();
 
 var diceRoll= new String;
 var diceRoll = Math.floor(Math.random() * 6) + 1;
 
-$("#scoreboard").text("You rolled a " + diceRoll);
+$("#output").text(diceRoll);
 
 if (diceRoll === 1) {
-prompt("You have forfeited your chance");
+$("#output").text(diceRoll + "." + "You have forfeited your chance");
 }
 
   });
