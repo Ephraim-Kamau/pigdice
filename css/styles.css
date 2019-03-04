@@ -26,18 +26,18 @@ h2 {
 }
 
 .panel-body1 {
-  width:600px;
+  width:500px;
   height:300px;
   text-align: center;
   float:center;
 }
 
 .panel-body2 {
-  width:600px;
+  width:500px;
   height:300px;
   text-align: center;
   float:center;
 }
 body {
-  background-color: green;
+  background-color: limegreen;
 }
