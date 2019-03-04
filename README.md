@@ -1,9 +1,7 @@
-####PIG DICE
+#### PIG DICE
 #### A brief description of my PIG DICE program.
-####
-4/3/2019
-####
-By Ephraim Kamau
+#### 4/3/2019
+#### By Ephraim Kamau
 
 #### Setup Information
 Ensure you have JavaScript and Bootstrap files on your computer to enable the program function as it should.
