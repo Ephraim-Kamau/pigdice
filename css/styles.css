@@ -27,16 +27,18 @@ h2 {
 
 .panel-body1 {
   width:500px;
-  height:300px;
+  height:400px;
   text-align: center;
   float:center;
+  background-color: lightblue;
 }
 
 .panel-body2 {
   width:500px;
-  height:300px;
+  height:400px;
   text-align: center;
   float:center;
+  background-color: lightblue;
 }
 body {
   background-color: limegreen;
