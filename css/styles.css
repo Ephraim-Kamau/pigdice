@@ -1,27 +1,17 @@
-h1 {
-  margin: .67em 0;
-  font-size: 2em;
-  font-size: 36px;
-  text-align: center;
-}
-h2 {
-text-align: left;
-}
-
-p {
-  font-size: 30px;
-}
-ul {
-  font-size: 17px;
-}
 
 #output {
   text-align: center;
   font-size: 30px;
 }
 
-.panel-body {
-  width:400px;
-  height:400px;
-  
+.panel-body1 {
+  width:600px;
+  height:300px;
+  text-align: left;
+}
+
+.panel-body2 {
+  width:700px;
+  height:300px;
+  text-align: left;
 }

@@ -1,5 +1,3 @@
-
-
 $(document).ready(function() {
 var cml1 = 0;
 var cml2 = 0;
@@ -23,9 +21,9 @@ return turn;
 $("button#spin1").click(function(){
   var spin1 = diceRoll();
   if (spin1 != 1) {
-    $("#die1").text(spin1);
+    $("#die1").text("DIE ROLL:" + spin1);
     score1 = parseInt(score1 + spin1);
-    $("#cmlScore1").text(score1);
+    $("#cmlScore1").text("CUMMULATIVE SCORE:" + score1);
   }
   else {
 cml1 = score1;
@@ -33,7 +31,7 @@ cml1 = 0;
 final1 += cml1;
 alert("You have rolled a 1. It's now Player 2's turn");
 score1 = 0;
-$("#fnlScore1").text(final1);
+$("#fnlScore1").text("FINAL SCORE:" + final1);
   }
 });
 
@@ -42,15 +40,15 @@ $("button#hold1").click(function() {
   score1=0;
   alert("Player 1 has held his turn");
   final1 += cml1;
-  $("#fnlScore1").text(final1);
+  $("#fnlScore1").text("FINAL SCORE:" + final1);
 });
 
 $("button#spin2").click(function(){
   var spin2 = diceRoll();
   if (spin2 != 1) {
-    $("#die2").text(spin2);
+    $("#die2").text("DIE ROLL:" + spin2);
     score2 = parseInt(score2 + spin2);
-    $("#cmlScore2").text(score2);
+    $("#cmlScore2").text("CUMMULATIVE SCORE:" + score2);
   }
   else {
 cml2 = score2;
@@ -58,7 +56,7 @@ cml2 = 0;
 final2 += cml2;
 alert("You have rolled a 1. It's now Player 2's turn");
 score2 = 0;
-$("#fnlScore2").text(final2);
+$("#fnlScore2").text("FINAL SCORE:" + final2);
   }
 });
 
@@ -67,6 +65,6 @@ $("button#hold2").click(function() {
   score2=0;
   alert("Player 1 has held his turn");
   final2 += cml2;
-  $("#fnlScore2").text(final2);
+  $("#fnlScore2").text("FINAL SCORE:" + final2);
 });
 });
