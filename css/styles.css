@@ -20,7 +20,8 @@ ul {
   font-size: 30px;
 }
 
-.panel-body1 {
-  width: 150px;
-  height:300px;
+.panel-body {
+  width:400px;
+  height:400px;
+  
 }
